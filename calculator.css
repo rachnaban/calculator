@@ -1,0 +1,62 @@
+﻿button {
+    background-color: #545151;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    height: 40px;
+}
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #818181;
+    font-size: 14px;
+}
+.display-top {
+    height: 15px;
+    font-size: 12px;
+    color: blueviolet;
+}
+.display-bottom {
+    height: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.cal-container {
+    width: 300px;
+    margin: auto;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 15px;
+}
+.zero {
+    width: 128px;
+}
+.num {
+    width: 60px;
+    padding: 2px;
+    display: inline-block;
+    margin: 2px;
+}
+.special {
+    background-color: #c93434;
+}
+.eq {
+    position: absolute;
+    padding: 2px;
+    margin: 2px;
+    width: 60px;
+    height: 80px;
+}
+.operator,
+.special,
+.deci {
+    width: 60px;
+    padding: 2px;
+    margin: 2px;
+}
+.display {
+    border: 2px solid #ccc;
+    text-align: right;
+    padding: 2px;
+    max-height: 40px;
+    min-height: 40px;
+}
