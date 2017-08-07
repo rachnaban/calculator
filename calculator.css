@@ -26,6 +26,10 @@ body {
     background-color: #fff;
     padding: 16px;
     border-radius: 15px;
+    left:50%;
+    position:absolute;
+    top:50%;
+    transform:translate(-50%,-50%);
 }
 .zero {
     width: 128px;
